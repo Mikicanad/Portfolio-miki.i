@@ -28,3 +28,14 @@ p {
     text-align: center;
     margin: 20px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+i {
+    color: var(--primary-color);
+    padding: 20px;
+}
