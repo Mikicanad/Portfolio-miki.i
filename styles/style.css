@@ -1,0 +1,30 @@
+/*font-family: "Agu Display",
+serif;
+serif;
+/*font-family: "Playwrite US Trad Guides",
+serif;*/
+:root{
+--primary-color: #f157a4;
+--secondary-color:#f8e4f6;
+--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+body { 
+    background: linear-gradient(to right, rgb(240, 182, 190), rgb(246, 217, 221));
+}
+
+h1, h2 {
+    font-size: 60px;
+    font-family: "Agu Display", serif;
+    text-align: center;
+    margin: 20px;
+    color:var(--primary-color);
+}
+
+p {
+    font-family: "Playwrite US Trad Guides",
+            serif;
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
