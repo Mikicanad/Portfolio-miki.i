@@ -56,7 +56,6 @@ i {
     
 }
 
-
 .btn-branding {
     box-shadow: var(--box-shadow);
     background-color: var(--primary-color);
@@ -83,6 +82,12 @@ i {
 
 .project-descriptions {
     padding: 90px 60px;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .project-name {
