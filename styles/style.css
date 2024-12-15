@@ -56,17 +56,7 @@ i {
     background-color: #fcdff4;
     background-image: linear-gradient(0deg, rgba(255, 245, 251, 0.1) 50%, rgba(249, 135, 209, 0.1) 50%);
     background-size: 40px 40px;
-    
-    
-    /*background-color: #f4d1f2;    
-    background-image: linear-gradient(135deg, rgba(249, 135, 209, 0.1) 25%, transparent 25%), linear-gradient(225deg, rgba(249, 135, 209, 0.1) 25%, transparent 25%), linear-gradient(45deg, rgba(249, 135, 209, 0.1) 25%, transparent 25%), linear-gradient(315deg, rgba(249, 135, 209, 0.1) 25%, rgba(248, 234, 242, 0.1) 25%);
-    background-position: 30px 0, 30px 0, 0 0, 0 0;
-    background-size: 30px 30px;
-    background-repeat: repeat;*/
-
 }
-
-
 
 .btn-branding {
     box-shadow: var(--box-shadow);
@@ -139,6 +129,33 @@ i {
     font-size: 14px;
 }
 
+.contact h3 {
+    font-size: 20px;
+    padding-top: 0;
+}
+.contact a {
+    background: linear-gradient(to right, #cb6ff5 50%, #dea8f7 50%)100%;
+    background-clip: text;
+    background-size: 200% 100%;
+    font-size: 20px;
+    color: transparent;
+    text-decoration: none;
+    transition: background-position 0.3s;
+}
+.contact a:hover {
+    background-position: 0 100%;
+}
+
+.contact p {
+    margin-bottom: 40px;
+}
+
+.icon-img {
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 70px;
+}
+
 
 @media (max-width:900px){
     .project-descriptions {
@@ -200,9 +217,19 @@ i {
     
      .content-container p {
         font-size: 16px;
-        line-height: 1.5;
-
-    
+        line-height: 1.5;   
 }
 
+.icon-img {
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+}
+
+@media (any-hover: hover) {
+    .contact a:hover {
+        letter-spacing: 0.05em;
+    }
 }
