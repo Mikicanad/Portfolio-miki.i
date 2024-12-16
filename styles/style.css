@@ -1,12 +1,9 @@
-/*font-family: "Agu Display",
-serif;
-/*font-family: "Playwrite US Trad Guides",
-serif;*/
+
 :root{
 --primary-color: #f157a4;
 --secondary-color:#f8e4f6;
 --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
---heading-font-family:"Agu Display",
+--heading-font-family:"Noto Serif Display",
     serif;
  --default-font-family:"Playwrite US Trad Guides", serif;
 }
@@ -81,13 +78,24 @@ i {
     background-color: #fecdf1;
 }
 
-.btn-branding-outline {
+.outline {
     background-color: var(--primary-color);
-    border-radius: 4px;
+    border-radius: 10px;
     border: 1px solid var(--primary-color);
     font-size: 18px;
     line-height: 27px;
-    padding: 15px 30px;    
+    padding: 15px 60px;    
+}
+
+.outline:hover {
+    color: var(--primary-color);
+    background-color: #fecdf1;
+    border: none;
+}
+
+.home-info {
+    font-family: var(--heading-font-family);
+    font-size: 20PX;
 }
 
 .project-descriptions {
@@ -175,6 +183,7 @@ i {
     padding: 80px 20px;
    }
 
+
    .content-container {
     text-align: center;
     padding: 0;
@@ -196,11 +205,11 @@ i {
 
 @media (max-width:576px) {
     h1 {
-        font-size: 36px;
+        font-size: 30px;
         line-height: 1.5;
     }
     h2 {
-        font-size: 26px;
+        font-size: 20px;
     }
     h3 {
         font-size: 20px;
@@ -209,6 +218,11 @@ i {
     footer {
         font-size: 30px;
     }
+
+        .hero h3 {
+        font-size: 14px;
+        margin: 10px;
+        }
 
     .project-name {
         font-size: 32px;
