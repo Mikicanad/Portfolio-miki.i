@@ -69,11 +69,14 @@ footer .contact-box p {
     margin: 0;
 }
 
-footer .link-github {
+footer .link-to-github {
+    font-size: 12px;
+}
+footer .link-github{
     background: linear-gradient(to right, #b04038 50%, #e692cd 50%)100%;
     background-clip: text;
     background-size: 200% 100%;
-    font-size: 16px;
+    font-size: 12px;
     color: transparent;
     text-decoration: none;
     transition: background-position 0.3s;
@@ -288,14 +291,12 @@ footer .contact-box {
     font-size: 40px;
 }
 
-footer .link-to-github {
-    font-size: 12px;
+footer .link-to-github, .link-github {
+font-size: 12px;
 }
 
-.link-github a{
-    font-size: 12px;
-}
 
+}
 
 @media (any-hover: hover) {
     .contact a:hover {
