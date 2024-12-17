@@ -291,6 +291,10 @@ footer .contact-box {
     font-size: 40px;
 }
 
+footer .social-link a {
+    padding: 2px 10px;
+}
+
 footer .link-to-github, .link-github {
 font-size: 12px;
 }
